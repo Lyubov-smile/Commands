@@ -1,0 +1,46 @@
+# Linux Basic Commands
+#https://www.hostinger.com/tutorials/linux-commands
+
+# 1. pwd command - Use to find out the path of the current working directory (folder) you’re in.
+pwd
+# 2. cd command - use to navigate through the Linux files and directories
+#cd dirname
+cd .. #(with two dots) to move one directory up
+cd #to go straight to the home folder
+cd- #(with a hyphen) to move to your previous directory
+# 3. ls command is used to view the contents of a directory.
+ls
+ls -l #will list of the names of all files in a long listing format in the current directory
+ls -R #will list all the files in the sub-directories as well
+ls -a #will show the hidden files
+ls -al #will list the files and directories with detailed information like the permissions, size, owner, etc.
+ls -la #will list long listing format with hidden files
+# 4. cat command is used to display the content of text files and to combine several files to one file.
+#cat filename.txt
+#cat > filename creates a new file
+#cat filename1 filename2>filename3 joins two files (1 and 2) and stores the output of them in a new file (3)
+#cat filename | tr a-z A-Z >output.txt convert a file to upper or lower case
+cat git_commands_ua
+# 5. cp command is a Linux shell command to copy files and directories
+cp git_commands_ua /Users/lvoronyak/Documents/QA_Internship
+# 6. mv command is used to move files and directories.
+mv git_commands_ua /Users/lvoronyak/Documents/QA_Internship
+# mv oldname.ext newname.ext rename file
+# mv olddir newdir rename directory
+# 7. mkdir command make a new directory
+mkdir newdir
+mkdir parentdir/childdir generate a new directory inside another directory
+mkdir -p parentdir/createbetween/childdir the p (parents) option create a directory in between two existing directories
+# 8. rmdir command delete a directory,only allows you to delete empty directories.
+rmdir newdir
+# 9. rm command delete files, directories and the contents within them.
+rm filename
+rm dirname
+rm -r dirname # Remove a directory recursively ? what does it mean?
+rm -rf # Recursively remove a directory without requiring confirmation
+#This will delete everything and there is no undo.
+# 10. touch command allows you to create a blank new file through the Linux command line.
+touch newpython.txt
+# 11. locate com
+
+
