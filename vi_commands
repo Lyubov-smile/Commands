@@ -28,9 +28,33 @@ s - Substitute one character under cursor continue to insert
 S - Substitute entire line and begin to insert at the beginning of the line
 ~ - Change case of individual character
 
+
 Saving and Closing the file
 
 Shift+zz - Save the file and quit
 :w - Save the file but keep it open
 :q - Quit without saving
 :wq - Save the file and quit
+
+
+Essential Vi Commands
+
+Open a file:
+vi filename
+To go into edit mode:
+press ESC and type I
+To go into command mode:
+press ESC
+To save a file
+press ESC and type :w fileName
+To save a file and quit:
+press ESC and type :wq
+OR
+press ESC and type :x
+To jump to a line:
+press ESC and type :the line number
+To Search for a string:
+Press ESC and type /wordToSearch
+To quit vi:
+Press ESC and type :q
+Save the following into a file called hello.sh:
