@@ -1,3 +1,10 @@
+vim file_name
+i   - start editing
+ESC - get back to normal mode
+:w  - save 
+:q  - quit
+
+
 VI Editing commands
 
 i - Insert at cursor (goes into insert mode)
