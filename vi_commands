@@ -58,3 +58,18 @@ Press ESC and type /wordToSearch
 To quit vi:
 Press ESC and type :q
 Save the following into a file called hello.sh:
+
+
+
+You need to press [Esc] key followed by the colon (:) before typing the following commands:
+
+Command	Description
+q	Quit
+q!	Quit without saving changes i.e. discard changes and quit file
+r fileName	Read data from file called fileName
+w	Save file and continue editing
+wq	Write and quit (save and exit)
+x	Same as wq command i.e. write and quit (save and exit)
+w fileName	Write to file called fileName (save as)
+w! fileName	Overwrite to file called fileName (save as forcefully)
+https://www.cyberciti.biz/faq/save-file-in-vi-vim-linux-apple-macos-unix-bsd/
